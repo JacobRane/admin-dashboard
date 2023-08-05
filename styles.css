@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+    display: grid;
+    grid-template-rows: 2fr repeat(10, 1fr) 10fr;
+    background-color: #bef264;
+    height: 100vh;
+}
+
+.dashboard {
+    background-color: #bef264;
+}
+
+.sidebar img {
+    width: 2rem;
+}
+.sidebar div {
+    align-self: center;
+}
+ 
